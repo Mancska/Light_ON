@@ -20,7 +20,7 @@ class Jatekter {
   setAllapotLista() {
     let hossz = this.#meret*3;
     for (let index = 0; index < hossz; index++) {
-        let random  = Math.random()
+        let random  = Math.floor(Math.random()*1)
         hamis = false
         if (random == 0){
             hamis=true;
