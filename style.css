@@ -1,0 +1,11 @@
+.lampa{
+    background-color: red;
+    border-radius: 50%;
+    max-width: 100px;
+
+}
+article{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+}
